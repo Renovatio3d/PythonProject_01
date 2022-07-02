@@ -15,3 +15,15 @@ print("""
  
 """)
 
+Operation = int(input(" Please choose operation you want to do: "))
+if Operation == 1:
+    Number_1 = int(input("Please enter first number: "))
+    Number_2 = int(input("Please enter second number: "))
+
+    print("Result: ", Number_1 + Number_2)
+
+elif Operation == 2:
+    Number_1 = int(input("Please enter first number: "))
+    Number_2 = int(input("Please enter second number: "))
+
+    print("Result: ", Number_1 - Number_2)
